@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 /*======header/section=======*/
@@ -27,7 +28,7 @@
     line-height: 28px;
     margin-bottom: 35px;
 }
-.text-area a {
+.btn {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
@@ -72,6 +73,7 @@
     background-color: #FAFAFA;
     margin-right: 30px;
     border-radius: 5px;
+    cursor:pointer;
 }
 .box h1 {
     text-align: center;
@@ -83,14 +85,107 @@
     color:#FF5959;
     border: 2px solid #FF5959;
 }
-.extra-content {
+.extra-content input{
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: #808080;
+    width: 50%;
+    margin-bottom: 35px;
     margin-top: 50px;
+    font-size: 20px;
+}
+input,placholder {
+    margin-left: 330px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.btn_link{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color:tomato;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+.button {
     text-align: center;
 }
-.extra-content p{
-    color: #b3b3b3;
-    font-size: 18px;
-    border-bottom: 1px solid #b3b3b3;
-    width: 765px;
-    margin-left: 300px;
+
+/*===========plan=========*/
+
+.plan {
+    text-align: center;
+    margin-bottom: 100px;
 }
+.plan h1 {
+    font-size: 40px;
+}
+.plan p {
+    color: #707070;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/*========================cards=====================*/
+
+.cards-plan {
+    display: flex;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 50px;
+}
+.food-family {
+    width: 360px;
+    height:352px;
+    background:#EDF5F6;
+    text-align: left;
+    padding-top: 26px;
+    padding-left: 26px;
+    padding-right: 26px;
+    border-radius: 5px;
+}
+.food-family
+p {
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+}
+.shelter-family
+p {
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+}
+.child-education p{
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+}
+.food-family,.shelter-family,.child-education, img {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.shelter-family {
+    width: 360px;
+    height: 352px;
+    background: #FFEEEE;
+    text-align: left;
+    padding-top: 26px;
+    padding-left: 26px;
+    padding-right: 26px;
+    margin-left: 5%;
+    border-radius: 5px;
+}
+.child-education {
+    width: 360px;
+    height: 352px;
+    background:#FFF4DE;
+    text-align: left;
+    padding-top: 26px;
+    padding-left: 26px;
+    padding-right: 26px;
+    margin-left: 5%;
+    border-radius: 5px;
+}
+
