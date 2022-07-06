@@ -197,7 +197,7 @@ p {
     margin-left: 80px;
     margin-right: 80px;
 }
-.blog h1 {
+.blog h2 {
     font-size: 60px;
     text-align: center;
     padding: 50px;
@@ -214,6 +214,7 @@ p {
     background-position: cover;
     padding: 30px;
     border-radius: 10px;
+    text-align: left;
 }
 .blog-2 {
     background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%),url(img/donation4.jpg);
@@ -226,8 +227,9 @@ p {
 }
 .flood h1 {
     color: #fff;
-    padding-top: 30px;
-    font-size: 40px;
+    padding-top: 35px;
+    font-size: 35px;
+    text-align: left;
 }
 .flood p {
     color: #fff;
